@@ -78,8 +78,4 @@ public class Pet implements Serializable {
 	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
-
-
-	
-
 }

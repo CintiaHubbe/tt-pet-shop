@@ -15,7 +15,6 @@ public class CpfValidador implements Validator {
 	public void validate(FacesContext context, UIComponent component, Object value) throws ValidatorException {
 		if (!CpfUtil.validaCPF(String.valueOf(value)))
 			MessageUtil.addError("CPF Invalido", "Conversao do CPF não Foi possivel");
-
 	}
 
 }
